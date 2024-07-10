@@ -1,0 +1,126 @@
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: Cambria;
+	font-weight: bold;
+	background-color: #78459E;
+
+}
+
+#meioPerguntas {
+
+	border-radius: 20px;
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	width: 80%;
+	align-items: center;
+	font-size: 25px;
+}
+
+.card {
+
+	background-color: white;
+	color: black;
+	width: 300px;
+	height: 170px;
+
+}
+
+h3 {
+
+	background-color: #78459E;
+	border: 1px solid #78459E;
+	color: rgb(255, 236, 255);
+	width: 90%;
+	align-content: center;
+	align-items: center;
+	margin: auto;
+	margin-top: 10px;
+
+}
+
+#meioLabels {
+
+	font-size: 30px;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: rgb(255, 236, 255);
+	margin-top: 2%;
+	
+
+}
+
+#meioSelects {
+
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+.pergunta {
+
+	font-size: 25px;
+	display: inline-flex;
+	justify-content: space-around;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: rgb(179, 179, 179);
+	align-items: center;
+	width: 200px;
+	text-align: center;
+	margin-top: 2%;
+
+}
+
+#baixoResultado {
+
+	font-size: 35px;
+	font-weight: bold;
+	color: rgb(255, 236, 255);
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 10%;
+
+}
+
+#inputResultado {
+
+	width: 60px;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+button {
+
+	width: 200px;
+	height: 40px;
+	font-size: 27px;
+	background-color: #C8BFE7;
+	border: 0px;
+
+}
+
+.option {
+
+	background-color: rgb(226, 226, 226);
+	color: black;
+	font-weight: bold;
+	border: 5px solid gray;
+
+}

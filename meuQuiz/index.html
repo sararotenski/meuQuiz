@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>The Coolest Quizzz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "quiz.js"></script>
+</head>
+<body>
+
+    <!-- DIV Container - Para englobar as outras divs, tamanho total da página -->
+    <div id="container">
+
+        <!-- DIV Topo - Para o título e imagens -->
+        <div id="topoTitulo">
+            <img src = "header.png" alt = "header">
+        </div>
+
+
+        <!-- DIV Perguntas - Para os cards de perguntas -->
+        <div id="meioPerguntas">
+            <div class = "card">
+                <h3>Pergunta 1</h3>
+                <p>Quantos filhos Claire e Phil têm em Modern Family?</p>
+            </div>
+
+            <div class = "card">
+                <h3>Pergunta 2</h3>
+                <p>Qual fime ganhou o último Oscar?</p>
+            </div>
+
+            <div class = "card">
+                <h3>Pergunta 3</h3>
+                <p>Qual atriz ganhou o último Oscar de Melhor Atriz?</p>
+            </div>
+
+        </div>
+
+
+        <!-- DIV Labels - Para as labels informativas de escolha -->
+        <div id="meioLabels">
+            <label>Escolha sua resposta</label>
+            <label>Escolha sua resposta</label>
+            <label>Escolha sua resposta</label>
+        </div>
+
+
+        <!-- DIV Selects - Para os menus de select com as respostas -->
+        <div id="meioSelects">
+            <select class = "pergunta" id = "perguntaUm">
+
+            <option value = "3">Resposta</option>
+            <option class = "option" value = "0">1</option>
+            <option class = "option" value = "0">2</option>
+            <option class = "option" value = "1">3</option>
+
+            </select>
+
+            <select class = "pergunta" id = "perguntaDois">
+
+                <option value = "3">Resposta</option>
+                <option class = "option" value = "0">Barbie</option>
+                <option class = "option" value = "1">Oppenheimer</option>
+                <option class = "option" value = "0">Poor Things</option>
+
+            </select>
+
+                <select class = "pergunta" id = "perguntaTres">
+
+                    <option value = "3">Resposta</option>
+                    <option class = "option" value = "1">Emma Stone</option>
+                    <option class = "option" value = "0">Margot Robie</option>
+                    <option class = "option" value = "0">Sandra Hüller</option>
+
+                </select>
+        </div>
+
+
+        <!-- DIV Resultado - Para a pontuação, resultado e botão de gerar pontos -->
+        <div id="baixoResultado">
+            <img src = "icone-esquerda.png" alt="icone-esquerda">
+            <label class = "pontuacao">Sua pontuação:</label>
+            <input id = "inputResultado"><button onclick = "finalizar()">Finalizar quiz</button>
+            <img src = "icone-direita.png" alt="icone-direita">
+
+        </div>
+
+    </div>
+
+    <script src="lógica-quiz.js"></script>
+
+</body>
+</html>
